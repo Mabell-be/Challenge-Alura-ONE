@@ -1,0 +1,109 @@
+* {
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 150%;
+   }
+     
+   .logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 10%;
+   }
+   
+   main {
+       display: flex;
+       margin-bottom: 50px;
+       margin-left: 80px;
+   }
+   
+   .text-area {
+       border: none;
+       color: #0a3871;
+       margin-top: 90px;
+       text-transform: lowercase;
+   }
+   
+   ::placeholder { color: #0a3871;}
+       .text-area:focus {
+           outline: none;
+       }
+   
+   .mensagem {
+       background: #FFFF;
+       background-image: url(/imagens/boneco.p.png);
+       background-repeat: no-repeat;
+       border: none;
+       border-radius: 24px;
+       color: #0a3871;
+       margin-left: 98px;
+       margin-top: 20px;
+       padding-left: 20px;
+       position: fixed;
+   }
+   .mensagem:focus {
+       outline: none;
+   }
+   
+   .botoes {
+       display: flex;
+       margin-top: 18px;
+   }
+   
+   .btn-desencriptar {
+       background: #D8DFEB;
+       border: 1px solid #0a3871;
+       border-radius: 24px;
+       color: #0a3871;
+       cursor: pointer;
+       height: 67px;
+       margin-left: 30px;
+       width: 328px;
+   }
+   
+   .btn-encriptar {
+      background-color: #0a3871;
+      border: 1px solid #0a3871;
+      border-radius: 24px;
+      color: #FFFF;
+      cursor: pointer;
+      height: 67px;
+      width: 328px; 
+   }
+   
+   .btn-copiar {
+       border: 1px solid #0a3871;
+       border-radius: 24px;
+       color: #0a3871;
+       cursor: pointer;
+       height: 67px;
+       margin-left: 108px;
+       margin-top: 402px;
+       position: absolute;
+       width: 336px
+   }
+   
+   .informacao {
+       color: #495057;
+       font-size: 18px;
+   }
+
+   .rodape {
+    background-color: #0a3871; /* Define a cor de fundo do rodapé */
+    color: #0a3871; /* Define a cor do texto */
+    padding: 20px; /* Adiciona um espaçamento interno ao redor do conteúdo */
+    text-align: center; /* Centraliza o texto no rodapé */
+    position: fixed; /* Torna o rodapé fixo na parte inferior da tela */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura da tela */
+    bottom: 0%; /* Posiciona o rodapé na parte inferior da tela */
+}
+
+.rodape h3 {
+    font-size: 16px; /* Define o tamanho da fonte do texto */
+    margin: 0; /* Remove a margem do elemento */
+}
+
+.rodape .icons a:hover {
+    color: #0a3871; /* Define a cor dos ícones quando o mouse passa sobre eles */
+}
